@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840B59A71A8DF717006845CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B59A61A8DF717006845CB /* AppDelegate.swift */; };
+		840B59A91A8DF717006845CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B59A81A8DF717006845CB /* ViewController.swift */; };
+		840B59AC1A8DF717006845CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840B59AA1A8DF717006845CB /* Main.storyboard */; };
+		840B59AE1A8DF717006845CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840B59AD1A8DF717006845CB /* Images.xcassets */; };
+		840B59B11A8DF717006845CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840B59AF1A8DF717006845CB /* LaunchScreen.xib */; };
+		840B59BD1A8DF717006845CB /* EstimoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B59BC1A8DF717006845CB /* EstimoteTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840B59B71A8DF717006845CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840B59991A8DF717006845CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840B59A01A8DF717006845CB;
+			remoteInfo = Estimote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840B59A11A8DF717006845CB /* Estimote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estimote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840B59A51A8DF717006845CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840B59A61A8DF717006845CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840B59A81A8DF717006845CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		840B59AB1A8DF717006845CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840B59AD1A8DF717006845CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840B59B01A8DF717006845CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		840B59B61A8DF717006845CB /* EstimoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840B59BB1A8DF717006845CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840B59BC1A8DF717006845CB /* EstimoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimoteTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840B599E1A8DF717006845CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840B59B31A8DF717006845CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840B59981A8DF717006845CB = {
+			isa = PBXGroup;
+			children = (
+				840B59A31A8DF717006845CB /* Estimote */,
+				840B59B91A8DF717006845CB /* EstimoteTests */,
+				840B59A21A8DF717006845CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840B59A21A8DF717006845CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840B59A11A8DF717006845CB /* Estimote.app */,
+				840B59B61A8DF717006845CB /* EstimoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840B59A31A8DF717006845CB /* Estimote */ = {
+			isa = PBXGroup;
+			children = (
+				840B59A61A8DF717006845CB /* AppDelegate.swift */,
+				840B59A81A8DF717006845CB /* ViewController.swift */,
+				840B59AA1A8DF717006845CB /* Main.storyboard */,
+				840B59AD1A8DF717006845CB /* Images.xcassets */,
+				840B59AF1A8DF717006845CB /* LaunchScreen.xib */,
+				840B59A41A8DF717006845CB /* Supporting Files */,
+			);
+			path = Estimote;
+			sourceTree = "<group>";
+		};
+		840B59A41A8DF717006845CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840B59A51A8DF717006845CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840B59B91A8DF717006845CB /* EstimoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				840B59BC1A8DF717006845CB /* EstimoteTests.swift */,
+				840B59BA1A8DF717006845CB /* Supporting Files */,
+			);
+			path = EstimoteTests;
+			sourceTree = "<group>";
+		};
+		840B59BA1A8DF717006845CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840B59BB1A8DF717006845CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840B59A01A8DF717006845CB /* Estimote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840B59C01A8DF717006845CB /* Build configuration list for PBXNativeTarget "Estimote" */;
+			buildPhases = (
+				840B599D1A8DF717006845CB /* Sources */,
+				840B599E1A8DF717006845CB /* Frameworks */,
+				840B599F1A8DF717006845CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Estimote;
+			productName = Estimote;
+			productReference = 840B59A11A8DF717006845CB /* Estimote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840B59B51A8DF717006845CB /* EstimoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840B59C31A8DF717006845CB /* Build configuration list for PBXNativeTarget "EstimoteTests" */;
+			buildPhases = (
+				840B59B21A8DF717006845CB /* Sources */,
+				840B59B31A8DF717006845CB /* Frameworks */,
+				840B59B41A8DF717006845CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840B59B81A8DF717006845CB /* PBXTargetDependency */,
+			);
+			name = EstimoteTests;
+			productName = EstimoteTests;
+			productReference = 840B59B61A8DF717006845CB /* EstimoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840B59991A8DF717006845CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "School of Chemistry";
+				TargetAttributes = {
+					840B59A01A8DF717006845CB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					840B59B51A8DF717006845CB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 840B59A01A8DF717006845CB;
+					};
+				};
+			};
+			buildConfigurationList = 840B599C1A8DF717006845CB /* Build configuration list for PBXProject "Estimote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840B59981A8DF717006845CB;
+			productRefGroup = 840B59A21A8DF717006845CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840B59A01A8DF717006845CB /* Estimote */,
+				840B59B51A8DF717006845CB /* EstimoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840B599F1A8DF717006845CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B59AC1A8DF717006845CB /* Main.storyboard in Resources */,
+				840B59B11A8DF717006845CB /* LaunchScreen.xib in Resources */,
+				840B59AE1A8DF717006845CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840B59B41A8DF717006845CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840B599D1A8DF717006845CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B59A91A8DF717006845CB /* ViewController.swift in Sources */,
+				840B59A71A8DF717006845CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840B59B21A8DF717006845CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B59BD1A8DF717006845CB /* EstimoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840B59B81A8DF717006845CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840B59A01A8DF717006845CB /* Estimote */;
+			targetProxy = 840B59B71A8DF717006845CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840B59AA1A8DF717006845CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840B59AB1A8DF717006845CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840B59AF1A8DF717006845CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840B59B01A8DF717006845CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840B59BE1A8DF717006845CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840B59BF1A8DF717006845CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840B59C11A8DF717006845CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Estimote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840B59C21A8DF717006845CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Estimote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		840B59C41A8DF717006845CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EstimoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estimote.app/Estimote";
+			};
+			name = Debug;
+		};
+		840B59C51A8DF717006845CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EstimoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estimote.app/Estimote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840B599C1A8DF717006845CB /* Build configuration list for PBXProject "Estimote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840B59BE1A8DF717006845CB /* Debug */,
+				840B59BF1A8DF717006845CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840B59C01A8DF717006845CB /* Build configuration list for PBXNativeTarget "Estimote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840B59C11A8DF717006845CB /* Debug */,
+				840B59C21A8DF717006845CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840B59C31A8DF717006845CB /* Build configuration list for PBXNativeTarget "EstimoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840B59C41A8DF717006845CB /* Debug */,
+				840B59C51A8DF717006845CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840B59991A8DF717006845CB /* Project object */;
+}
